@@ -4,6 +4,8 @@ import { HashRouter } from 'react-router-dom';
 import { useStrict } from 'mobx';
 import { Provider } from 'mobx-react';
 
+import "./index.css";
+
 import App from './App';
 
 import userStore from './stores/userStore';
